@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700');
+
+h1{
+    font-family: 'Lobster', sans-serif;
+}
+
+#sign-in-btn{
+    margin-right: 10px;
+}
+
+
+.card-img-top{
+    border: none !important;
+    border-radius: 0;
+    max-height: 30rem;
+}
+
+#hero{
+    padding-top: 15rem !important;
+    margin-bottom: 16rem;
+}
+
+.carousel-inner{
+    max-height: 30rem;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .carousel-inner{
+        max-height: 23rem;
+    }
+    .card-group{
+        display: flex;
+        flex-direction: column !important;
+    }
+  }
+
+
+.style-card-me{
+    background-color: #1b1b22; 
+    font-family: 'Montserrat', sans-serif;
+}
+
+.style-card-me a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.822);
+}
+
+.style-card-me a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.style-card-me p{
+    color:rgba(255, 255, 255, 0.445);
+    
+}
+
+.style-card-footer-me {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #1b1b22 !important; 
+    border-style:none !important;
+}
+.author{
+    margin-left: 2rem;
+}
